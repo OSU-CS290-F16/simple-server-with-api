@@ -1,0 +1,42 @@
+{
+  "luke": {
+    "name": "Luke Skywalker",
+    "job": "Jedi Knight",
+    "age": 24
+  },
+  "beyonce": {
+    "name": "Beyonce Knowles-Carter",
+    "job": "Singer-Songwriter",
+    "age": 35
+  },
+  "albert": {
+    "name": "Albert Einetein",
+    "job": "Scientist",
+    "age": 68
+  },
+  "stephen": {
+    "name": "Stephen Curry",
+    "job": "MVP",
+    "age": 28
+  },
+  "jon": {
+    "name": "Jon Stewart",
+    "job": "Comedian",
+    "age": 53
+  },
+  "john": {
+    "name": "John Steinbeck",
+    "job": "Author",
+    "age": 57
+  },
+  "elizabeth": {
+    "name": "Elizabeth Cady Stanton",
+    "job": "Butt-Kicker",
+    "age": 75
+  },
+  "donald": {
+    "name": "Donald Knuth",
+    "job": "Programmer",
+    "age": 78
+  }
+}

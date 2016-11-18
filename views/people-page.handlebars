@@ -1,0 +1,7 @@
+{{> header}}
+
+<main>
+  {{#each people}}
+    {{> person-link this key=@key}}
+  {{/each}}
+</main>

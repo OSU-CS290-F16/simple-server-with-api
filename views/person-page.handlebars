@@ -1,0 +1,18 @@
+{{> header}}
+
+<main>
+  <div class="person">
+    <p>
+      Job: {{person.job}}
+    </p>
+    <p>
+      Age: {{person.age}}
+    </p>
+  </div>
+
+  {{#each person.photos}}
+    {{> person-photo}}
+  {{/each}}
+</main>
+
+{{> add-photo-modal}}

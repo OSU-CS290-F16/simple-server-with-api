@@ -1,0 +1,31 @@
+{
+  "name": "simple-server-with-api",
+  "version": "1.0.0",
+  "description": "A simple dynamic content server with an API to enable data updates from the client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "handlebars views/partials/person-photo.handlebars -f public/person-photo-template.js",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-F16/simple-server-with-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Rob Hess <hessro@oregonstate.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OSU-CS290-F16/simple-server-with-api/issues"
+  },
+  "homepage": "https://github.com/OSU-CS290-F16/simple-server-with-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.6"
+  }
+}
